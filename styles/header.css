@@ -1,5 +1,3 @@
-/* width 767부터 생성될것임 */
-
 .header{
     height: 60px;
     display: flex;
@@ -48,4 +46,12 @@
 }
 .header-heart {
     height: 23px;
+}
+
+/* width 767부터 헤더 생성 */
+@media (min-width: 768px) {
+    .header{
+        height: 60px;
+        display: none;
+    }
 }
