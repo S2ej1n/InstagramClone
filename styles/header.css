@@ -1,0 +1,51 @@
+/* width 767부터 생성될것임 */
+
+.header{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--background-color);
+    z-index: 100;
+    padding: 0 16px;
+    border-bottom: 1px solid;
+    border-bottom-color: var(--header-grid-color)
+}
+
+.header-logo-button{
+    border: none;
+    margin-top: 5px;
+    background-color: var(--background-color);
+}
+.header-logo-button:hover{
+    background-color: var(--header-logo-hover);
+    cursor: pointer;
+}
+
+.header-logo {
+    height: 29px;
+}
+
+.right-section{
+    display: flex;
+    align-items: center;
+}
+.search-box {
+    margin-right: 20px;
+    z-index: 2;
+}
+.search-bar {
+    height: 36px;
+    width: 234px;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--header-search-color);
+    padding: 0 16px;
+}
+.search-bar:focus{
+    outline: none;
+    /* 검색 버튼을 클릭해도 테두리? 가 생기지 않는다. */
+}
+.header-heart {
+    height: 23px;
+}

@@ -1,3 +1,10 @@
 * {
     margin: 0;
 }
+
+:root {
+    --background-color: #FFFFFF;
+    --header-grid-color: #DBDBDB;
+    --header-search-color: #EFEFEF;
+    --header-logo-hover: #F2F2F2;
+}
