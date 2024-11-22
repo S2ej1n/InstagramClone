@@ -1,0 +1,21 @@
+/* 너비 1264 때: 왼쪽 사이드바 길어짐 */
+/* 너비 767부터 : 사라짐 */
+.menu-navbar{
+    height: 100dvh;
+    width: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-right: 1px solid;
+    border-color: var(--header-grid-color);
+}
+
+.navbar-logo{
+    height: 92px;
+    display: flex;
+    align-items: center;
+}
+.navbar-logo-line{
+    height: 22px;
+}
