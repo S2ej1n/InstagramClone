@@ -35,6 +35,21 @@
     }
 }
 
+@media (min-width: 1264px) {
+    .main{
+        display: block;
+        justify-items: center;
+        align-items: center;
+        position: relative;
+        left: 220px;
+        width: calc(100% - 220px); 
+    }
+    .main-container{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
 .main-container{
     display: flex;
     flex-direction: row;
