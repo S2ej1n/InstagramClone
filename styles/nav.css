@@ -9,12 +9,13 @@
     align-items: center;
     border-right: 1px solid;
     border-color: var(--header-grid-color);
-    
+    background-color: var(--background-color);
+    z-index: 100;
+
     /*아 모르겠는뎅*/
     position: fixed;
     top: 0;
     left: 0;
-    
 }
 
 .navbar-logo{

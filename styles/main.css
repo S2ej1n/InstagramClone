@@ -1,3 +1,16 @@
-.main {
-    
+/* 미디어쿼리 말고 다른걸로 구현 못할랑가.. 약간... 
+기준점을 position:fixed인걸로 잡고..*/
+@media (max-width: 767px) {
+    .main{
+        position: relative;
+        top: 60px;
+    }
+}
+
+@media (min-width: 768px) {
+    .main{
+        position: relative;
+        left: 72px;
+        width: calc(100% - 72px); /* 너비를 조절해줌 */
+    }
 }
