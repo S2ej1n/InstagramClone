@@ -13,6 +13,8 @@
     position: fixed;
     top: 0;
     left: 0;
+    box-sizing: border-box;
+    /* 패딩으로 자꾸 하트가 잘리니까 추가해줌. 테두리를 기준으로 해서 안넘어감 ㅠㅠ */
 }
 
 .header-logo-button{
@@ -56,7 +58,6 @@
 /* width 767부터 헤더 생성 */
 @media (min-width: 768px) {
     .header{
-        /* height: 60px; */
         display: none;
     }
 }
