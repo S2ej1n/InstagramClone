@@ -21,7 +21,6 @@
         position: relative;
         left: 72px;
         width: calc(100% - 72px); 
-        /* 너비를 조절해줌 */
     }
     .main-container{
         display: flex;

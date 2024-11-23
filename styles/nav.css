@@ -2,7 +2,7 @@
 /* 너비 767부터 : 사라짐 */
 .menu-navbar{
     height: 100dvh;
-    width: 72px;
+    width: 220px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -42,6 +42,7 @@
     margin-top: 2px;
 }
 .navbar-nav a {
+    display: flex;
     height: 50px;
     padding: 12px;
     margin: 6px;
@@ -68,6 +69,16 @@
 @media (max-width: 767px) {
     .menu-navbar{
         /* height: 60px; */
+        display: none;
+    }
+}
+
+/* width 1264부터 네브바 길어짐 */
+@media (max-width: 1263px) {
+    .menu-navbar{
+        width: 72px;
+    }
+    .navbar-nav a p {
         display: none;
     }
 }
