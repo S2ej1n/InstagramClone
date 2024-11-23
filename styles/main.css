@@ -1,16 +1,59 @@
 /* 미디어쿼리 말고 다른걸로 구현 못할랑가.. 약간... 
 기준점을 position:fixed인걸로 잡고..*/
+
+/* 헤더생성 */
 @media (max-width: 767px) {
     .main{
+        display: block;
+        flex-direction: row;
+        justify-items: center;
+        align-items: center;
         position: relative;
         top: 60px;
     }
 }
 
+/* 네브바 생성 */
 @media (min-width: 768px) {
     .main{
+        display: block;
+        flex-direction: row;
+        justify-items: center;
+        align-items: center;
         position: relative;
         left: 72px;
-        width: calc(100% - 72px); /* 너비를 조절해줌 */
+        width: calc(100% - 72px); 
+        /* 너비를 조절해줌 */
     }
+    .main-container{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+/* important 안쓰면 안되던데 뭐가 문제인지 알아봐야겠음.. */
+@media (max-width: 1159px){
+    .right-sidebar{
+        display: none !important;
+    }
+}
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.main-section {
+    display: block;
+    flex-direction: column;
+    justify-items: center;
+    width: 630px;
+    margin: 16px 0px 0px;
+}
+
+.right-sidebar {
+    display: block;
+    justify-items: center;
+    width: 383px;
+    margin: 0px 0px 0px 64px;
 }
