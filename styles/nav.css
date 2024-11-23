@@ -28,6 +28,10 @@
     padding: 12px;
     border-radius: 8px;
 }
+.navbar-logo-text{
+    height: 29px;
+    display: none;
+}
 .navbar-logo-line:hover{
     background-color: var(--item-hover);
     transition-duration: 0.4s;
@@ -47,9 +51,12 @@
     padding: 12px;
     margin: 6px;
     border-radius: 8px;
+    text-decoration: none;
+    align-items: center;
 }
 .navbar-nav a p {
     display: none;
+    color: var(--text-color);
 }
 .navbar-nav a:hover{
     background-color: var(--item-hover);
@@ -79,9 +86,33 @@
 /* width 1264부터 네브바 길어짐 */
 @media (min-width: 1264px) {
     .menu-navbar{
-        width: 220px;
+        width: 230px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+    .navbar-logo-line{
+        display: none;
+    }
+    .navbar-logo-text{
+        height: 29px;
+        display: flex;
+        padding-left: 15px;
+    }
+    .navbar-nav a {
+        display: flex;
+        width: 188px;
+        height: 50px;
+        padding: 12px;
+        margin: 6px;
+        border-radius: 8px;
+        text-decoration: none;
+        align-items: center;
     }
     .navbar-nav a p {
         display:flex;
+        padding: 0px 0px 0px 16px;
     }
 }

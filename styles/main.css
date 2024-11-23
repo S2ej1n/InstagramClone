@@ -41,8 +41,8 @@
         justify-items: center;
         align-items: center;
         position: relative;
-        left: 220px;
-        width: calc(100% - 220px); 
+        left: 230px;
+        width: calc(100% - 230px); 
     }
     .main-container{
         display: flex;
