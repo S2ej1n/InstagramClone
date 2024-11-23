@@ -1,5 +1,6 @@
 .header{
     height: 60px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -7,7 +8,11 @@
     z-index: 100;
     padding: 0 16px;
     border-bottom: 1px solid;
-    border-bottom-color: var(--header-grid-color)
+    border-bottom-color: var(--header-grid-color);
+
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .header-logo-button{
@@ -51,7 +56,7 @@
 /* width 767부터 헤더 생성 */
 @media (min-width: 768px) {
     .header{
-        height: 60px;
+        /* height: 60px; */
         display: none;
     }
 }

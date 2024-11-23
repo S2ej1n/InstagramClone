@@ -9,6 +9,11 @@
     align-items: center;
     border-right: 1px solid;
     border-color: var(--header-grid-color);
+    
+    /*아 모르겠는뎅*/
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .navbar-logo{
@@ -55,4 +60,12 @@
     border-radius: 100px;
     border: 1px solid;
     border-color: var(--header-grid-color);
+}
+
+/* width 767부터 사라짐 */
+@media (max-width: 767px) {
+    .menu-navbar{
+        /* height: 60px; */
+        display: none;
+    }
 }
