@@ -12,10 +12,41 @@
 }
 
 .navbar-logo{
-    height: 92px;
+    height: 96px;
     display: flex;
     align-items: center;
 }
 .navbar-logo-line{
     height: 22px;
+    padding: 12px;
+    border-radius: 8px;
+}
+.navbar-logo-line:hover{
+    background-color: var(--item-hover);
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.navbar-nav {
+    height: 448px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2px;
+}
+.navbar-nav a {
+    height: 50px;
+    padding: 12px;
+    margin: 6px;
+    border-radius: 8px;
+}
+.navbar-nav a:hover{
+    background-color: var(--item-hover);
+    transition-duration: 0.4s;
+}
+
+.navbar-nav a img {
+    height: 22px;
+    display: flex;
+    align-items: center;
 }

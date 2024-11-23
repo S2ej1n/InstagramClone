@@ -16,7 +16,7 @@
     background-color: var(--background-color);
 }
 .header-logo-button:hover{
-    background-color: var(--header-logo-hover);
+    background-color: var(--item-hover);
     cursor: pointer;
 }
 
