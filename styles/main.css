@@ -166,7 +166,83 @@
     margin-bottom: 6px;
 }
 
-/* 포스트 */
-.post {
+/* --포스트-- */
+.post-container {
     width: 630px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-box{
+    width: 470px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+/* 포스트 프로필 박스 */
+.post-profile-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 0px 12px 0px;
+    justify-content: space-between;
+}
+
+.post-profile-box-profil-id{
+    display: flex;
+    align-items: center;
+}
+
+.post-profile-img-div {
+    width: 40px;
+    height: 40px;
+    background-color: #1FD14E;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-right: 7px;
+}
+.post-profile-img-div img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 2px solid;
+    border-color: var(--background-color);
+    object-fit: cover;
+}
+
+.post-profile-id-box{
+}
+.post-id {
+    font-size: 14px;
+    font-weight: 700;
+}
+.post-location{
+    font-size: 12px;
+}
+.post-day {
+    font-size: 14px;
+    color: var(--story-text);
+}
+.post-profile-more-but{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.post-profile-more-but:hover{
+    cursor: pointer;
+}
+
+.post-image-box{
+    width: 470px;
+}
+.post-image-box img{
+    width: 470px;
+    border-radius: 3px;
 }
