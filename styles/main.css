@@ -76,6 +76,7 @@
     padding: 8px 0px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 24px;
 }
 .profile-box {
     height: 84px;
@@ -163,4 +164,9 @@
     align-items: center;
     box-sizing: border-box;
     margin-bottom: 6px;
+}
+
+/* 포스트 */
+.post {
+    width: 630px;
 }
