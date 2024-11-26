@@ -75,6 +75,7 @@
     height: 84px;
     padding: 8px 0px;
     display: flex;
+    justify-content: space-between;
 }
 .profile-box {
     height: 84px;
@@ -149,4 +150,17 @@
     color: var(--text-color);
     font-size: 12px;
     padding: 0px 2px;
+}
+.img-div3{
+    height: 64px;
+    width: 64px;
+    background-color: #1FD14E;
+    border-radius: 50%;
+    border: 1px solid;
+    border-color: var(--story-border);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-bottom: 6px;
 }
