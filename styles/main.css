@@ -86,7 +86,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+}
+.profile-box:hover{
+    cursor: pointer;
 }
 .img-div{
     height: 64px;
@@ -124,7 +126,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+}
+.profile-box2:hover{
+    cursor: pointer;
 }
 .img-div2{
     height: 64px;
@@ -195,6 +199,9 @@
 .post-profile-box-profil-id{
     display: flex;
     align-items: center;
+}
+.post-profile-box-profil-id:hover{
+    cursor: pointer;
 }
 
 .post-profile-img-div {
